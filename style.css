@@ -255,6 +255,11 @@ text-align: left;
 
 .seo-credit {
   text-align: center;
+  margin: 1rem 0 0;
+}
+
+.seo-credit + .footer {
+  margin-top: 0;
 }
 
 .footer {
