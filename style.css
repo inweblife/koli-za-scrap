@@ -253,6 +253,10 @@ text-align: left;
   text-decoration: underline;
 }
 
+.seo-credit {
+  text-align: center;
+}
+
 .footer {
   margin-top: 1rem;
   padding: 1rem;
