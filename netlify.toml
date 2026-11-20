@@ -1,6 +1,13 @@
 [build]
   publish = "."
 
+# Нашият sitemap: пренаписва всичко, което Netlify плъгин би генерирал
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap-static.xml"
+  status = 200
+  force = true
+
 [[headers]]
   for = "/img/*"
   [headers.values]
