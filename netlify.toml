@@ -5,3 +5,9 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/za-men/*"
+  to = "/about/"
+  status = 301
+  force = true
