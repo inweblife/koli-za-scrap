@@ -219,3 +219,10 @@ blockquote {
   .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* Article + card links */
+.card h3 a { color: var(--text); }
+.card h3 a:hover { color: var(--gold-2); text-decoration: none; }
+.read-more { margin-top: 16px; font-weight: 700; }
+.prose .lead { font-size: 1.2rem; color: var(--text); margin-bottom: 28px; }
+.prose strong { color: var(--text); }
