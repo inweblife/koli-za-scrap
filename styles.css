@@ -229,3 +229,9 @@ blockquote {
 .credit a { color: var(--muted); }
 .credit a:hover { color: var(--gold-2); }
 .pillar p a, .cta p a { color: var(--gold-2); }
+
+/* Share */
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 40px 0 30px; padding-top: 24px; border-top: 1px solid var(--line); }
+.share-label { color: var(--muted); font-weight: 700; margin-right: 4px; }
+.share-btn { display: inline-block; padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--text); font: inherit; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.share-btn:hover { border-color: var(--gold); color: var(--gold-2); text-decoration: none; }

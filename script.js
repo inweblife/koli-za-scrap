@@ -28,3 +28,23 @@ if ('IntersectionObserver' in window) {
 // Година във футъра
 const y = document.getElementById('year');
 if (y) y.textContent = new Date().getFullYear();
+
+// Копиране на линка към статията
+document.querySelectorAll('[data-copy]').forEach((btn) => {
+  btn.addEventListener('click', async () => {
+    const url = btn.getAttribute('data-copy');
+    try {
+      await navigator.clipboard.writeText(url);
+    } catch (e) {
+      const t = document.createElement('textarea');
+      t.value = url;
+      document.body.appendChild(t);
+      t.select();
+      document.execCommand('copy');
+      t.remove();
+    }
+    const old = btn.textContent;
+    btn.textContent = 'Копирано!';
+    setTimeout(() => { btn.textContent = old; }, 2000);
+  });
+});
