@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: 
-Sitemap: https://kolizascrapsofia.netlify.app/sitemap.xml
+Allow: /
+
+Sitemap: https://postigni.win/sitemap.xml
