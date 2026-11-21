@@ -1,6 +1,19 @@
 [build]
   publish = "."
 
+# Дублиращата версия на netlify.app -> основния домейн
+[[redirects]]
+  from = "https://postigni.netlify.app/*"
+  to = "https://postigni.win/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://postigni.netlify.app/*"
+  to = "https://postigni.win/:splat"
+  status = 301
+  force = true
+
 # Нашият sitemap: пренаписва всичко, което Netlify плъгин би генерирал
 [[redirects]]
   from = "/sitemap.xml"
