@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Постигни победа</title>
+    <link>https://postigni.win/</link>
+    <description>Истории на успешни хора, които са постигнали своята победа.</description>
+    <language>bg</language>
+    <atom:link href="https://postigni.win/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 20 Nov 2026 18:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://postigni.win/icon-192.png</url>
+      <title>Постигни победа</title>
+      <link>https://postigni.win/</link>
+    </image>
+    <item>
+      <title><![CDATA[Карлос Насар: от травмата до златото]]></title>
+      <link>https://postigni.win/blog/karlos-nasar/</link>
+      <guid isPermaLink="true">https://postigni.win/blog/karlos-nasar/</guid>
+      <description><![CDATA[Скъсано ахилесово сухожилие, а 15 месеца по-късно - олимпийско злато и два световни рекорда в Париж 2024. Историята на Карлос Насар.]]></description>
+      <pubDate>Fri, 20 Nov 2026 18:00:00 +0200</pubDate>
+      <enclosure url="https://postigni.win/img/nasar-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title><![CDATA[Илон Мъск: провалът като план]]></title>
+      <link>https://postigni.win/blog/ilon-mask/</link>
+      <guid isPermaLink="true">https://postigni.win/blog/ilon-mask/</guid>
+      <description><![CDATA[Три провалени ракети и почти фалит: как SpaceX на Илон Мъск стига до орбита на четвъртия опит през 2008 г. и какви са уроците от това.]]></description>
+      <pubDate>Fri, 20 Nov 2026 17:00:00 +0200</pubDate>
+      <enclosure url="https://postigni.win/img/musk-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+    <item>
+      <title><![CDATA[Линус Торвалдс: от хоби до Linux]]></title>
+      <link>https://postigni.win/blog/linus-torvalds/</link>
+      <guid isPermaLink="true">https://postigni.win/blog/linus-torvalds/</guid>
+      <description><![CDATA[Как студентското хоби на Линус Торвалдс от 1991 г. се превръща в Linux - системата, която днес движи интернет и милиарди телефони.]]></description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 +0200</pubDate>
+      <enclosure url="https://postigni.win/img/linus-og.jpg" type="image/jpeg" length="0"/>
+    </item>
+  </channel>
+</rss>
